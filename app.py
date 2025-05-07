@@ -6,7 +6,6 @@ import os
 # Configure Kaggle-compatible settings
 os.environ["TF_USE_LEGACY_KERAS"] = "1"
 os.environ["TF_KERAS"] = "1"
-pip install -q tf-keras==2.15.0 transformers==4.41.0 sentencepiece streamlit pyconll
 
 
 # Configure Streamlit page
