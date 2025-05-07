@@ -1,6 +1,6 @@
 # Arabic POS Tagging with Transformers
 
-(MariamOsama3/Mariam_classifer2)
+<MariamOsama3/Mariam_classifer2>
 A simple, end-to-end pipeline for tagging Arabic text with Part-Of-Speech (POS) labels using a transformer model.
 
 ---
