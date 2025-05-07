@@ -1,7 +1,3 @@
-# Replace the environment config at the top with:
-os.environ["TF_USE_LEGACY_KERAS"] = "1"
-os.environ["TF_KERAS"] = "1"
-
 # Remove this line from the top imports:
 # import tensorflow as tf  # Only if you're not using direct TF operations
 
@@ -23,9 +19,6 @@ def load_pos_model():
         "ner",
         model=model,
         tokenizer=tokenizer,
-        framework="tf",
-        aggregation_strategy="simple"
-    )
         framework="tf",
         aggregation_strategy="simple"
     )
